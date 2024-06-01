@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2/family=Patrick+Hand&display=Swap');
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Partick Hand', cursive;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+.navwrapper{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: crimson;
+    position: relative;
+    top: 0;
+    left: 0;
+    align-items: center;
+}
+.navigation{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav{
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    align-items: center;
+}
+.nav:hover{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    transition: all ease-in-out 0.2s;
+}
+.nav:hover > a{
+    color: black;
+}
+.navlink{
+    color: white;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.container-materi{
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.container-materi h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-style: bold;
+}
+.container-materi p{
+    margin: 1px;
+}
+table{
+    border-color: black;
+    margin-top: 20px;
+}
+th{
+    padding: 5px;
+    background-color: rgb(0, 255, 21);
+}
+td{
+    padding: 5px;
+}
+ul{
+    padding-left: 25px;
+    text-decoration: none;
+}
+ul p, a{
+    color: black;
+}
+/* #ms-word,#sc-ms-word,#dropcap,#ms-exel,#aritmatika,#lambang-exel,#ppt,#database,#ms-access,#mysql{
+    padding-top: ;
+} */
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 75px;
+    height: 75px;
+    background-color: wheat;
+    border-radius: 15px;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}

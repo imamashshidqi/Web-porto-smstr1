@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style-home.css">
+</head>
+<body>
+    <section id="home">
+        <div class="container">
+            <div class="navwrapper">
+                <ul class="navigation">
+                    <li class="nav">
+                        <a href="#home" class="navlink">Home</a>
+                    </li>
+                    <li class="nav">
+                        <a href="#team" class="navlink">Team</a>
+                    </li>
+                    <li class="nav">
+                        <a href="#materi" class="navlink">Materi</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contentwrapper">
+                <h1>
+                    Kelompok 4!
+                </h1>
+            </div>
+        </div>
+    </section>
+    <section id="team">
+        <div class="red">
+            <h1 id="anggota1">Anggota</h1>
+            <div class="contentwrapper" id="anggota">
+                <div class="profile">
+                    <a href="lutfi.html" target="_blank">
+                        <img src="assets/luthfi1.jpg" width="100%">
+                    </a>
+                    <h2>Muhammad Luthfi</h2>
+                </div>
+                
+                <div class="profile">
+                    <a href="imam.html" target="_blank">
+                        <img src="assets/imam.jpg" width="100%">
+                    </a>
+                    <h2>Imam Ash-Shidqi</h2>
+                </div>
+                
+                <div class="profile">
+                    <a href="ade.html" target="_blank">
+                        <img src="assets/ade.jpg" width="100%">
+                    </a>
+                    <h2>Ade Nuridwan</h2>
+                </div>
+                <div class="profile">
+                    <a href="rizwa.html" target="_blank">
+                        <img src="assets/rizwa.jpg">
+                    </a>
+                    <h2>Rizwa Ardetya Rahman</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="materi">
+        <div class="blue">
+            <div class="contentwrapper">
+                <a href="materi.html" target="_blank">
+                <h1 class="materi">Materi</h1>
+                </a>
+            </div>
+        </div>
+    </section>
+    <div class="top" onclick="goToTop()">🔝</div>
+    <script>
+        const goToTop = () => {
+            return location.href="#materi"
+        }
+    </script>
+</body>
+</html>
