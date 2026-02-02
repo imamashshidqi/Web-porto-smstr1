@@ -1,130 +1,134 @@
-@import url('https://fonts.googleapis.com/css2/family=Patrick+Hand&display=Swap');
-*, html, body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Partick Hand', cursive;
-    scroll-behavior: smooth;
+@import url("https://fonts.googleapis.com/css2/family=Patrick+Hand&display=Swap");
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Partick Hand", cursive;
+  scroll-behavior: smooth;
 }
-section{
-    height: 100vh;
+section {
+  height: 100vh;
 }
-.container{
-    width: 100%;
-    height: 100%;
-    background-color: blueviolet;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(assets/gedung-unpak.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: blueviolet;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../assets/gedung-unpak.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.red{
-    background-color: crimson;
-    width: 100%;
-    height: 100%;
+.red {
+  background-color: crimson;
+  width: 100%;
+  height: 100%;
 }
-.blue{
-    background-color: rgb(220, 210, 20);
-    width: 100%;
-    height: 100%;
+.blue {
+  background-color: rgb(220, 210, 20);
+  width: 100%;
+  height: 100%;
 }
-h1{
-    text-align: center;
-    font-size: 5em;
-    color: white;
+h1 {
+  text-align: center;
+  font-size: 5em;
+  color: white;
 }
-.navwrapper{
-    width: 100%;
-    height: 80px;
-    background-color: crimson;
-    position: fixed;
-    top: 0;
-    left: 0;
+.navwrapper {
+  width: 100%;
+  height: 80px;
+  background-color: crimson;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
-.contentwrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+.contentwrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
-.contentwrapper a{
-    text-decoration: none;
+.contentwrapper a {
+  text-decoration: none;
 }
-.contentwrapper a:hover{
-    transform: translateY(-5px);
+.contentwrapper a:hover {
+  transform: translateY(-5px);
 }
-.navigation{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100%;
+.navigation {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
 }
-.nav{
-    list-style-type: none;
-    padding: 20px;
-    margin: 5px;
-    cursor: pointer;
+.nav {
+  list-style-type: none;
+  padding: 20px;
+  margin: 5px;
+  cursor: pointer;
 }
-.nav:hover{
-    background-color: antiquewhite;
-    border-radius: 10px;
-    transition: all ease-in-out .2s;
+.nav:hover {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  transition: all ease-in-out 0.2s;
 }
-.nav:hover > a{
-    color: black;
+.nav:hover > a {
+  color: black;
 }
-.navlink{
-    color: white;
-    font-size: 1.2em;
-    font-weight: 600;
-    text-decoration: none;
+.navlink {
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-decoration: none;
 }
-.top{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 75px;
-    height: 75px;
-    background-color: wheat;
-    border-radius: 15px;
-    cursor: pointer;
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 75px;
+  height: 75px;
+  background-color: wheat;
+  border-radius: 15px;
+  cursor: pointer;
 }
 .profile {
-    width: 200px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    overflow: hidden;
-    transition: transform 0.3s ease;
+  width: 200px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
 }
 .profile img:hover {
-    transform: translatey(-5px);
+  transform: translatey(-5px);
 }
 .profile img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-bottom: 2px solid #ddd;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #ddd;
 }
 .profile h2 {
-    text-align: center;
-    font-size: 1em;
-    padding: 15px;
-    margin: 0;
-    color: #333;
+  text-align: center;
+  font-size: 1em;
+  padding: 15px;
+  margin: 0;
+  color: #333;
 }
-#anggota{
-    width: 100%;
-    height: 500px;
+#anggota {
+  width: 100%;
+  height: 500px;
 }
-#anggota1{
-    width: 100%;
-    height: 100px;
-    padding-top: 50px;
+#anggota1 {
+  width: 100%;
+  height: 100px;
+  padding-top: 50px;
 }

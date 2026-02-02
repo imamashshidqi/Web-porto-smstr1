@@ -1,72 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Profile - Imam Ash Shidqi</title>
-</head>
-<body>
+  </head>
+  <body>
     <section id="profile">
-        <div class="container">
-            <div class="navwrapper">
-                <ul class="navigation">
-                    <li class="nav">
-                        <a href="home.html" class="navlink">Home</a>
-                    </li>
-                    <li class="nav">
-                        <a href="#about" class="navlink">About</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="profile" id="profile">
-                <div class="container">
-                    <div class="contents-profile">
-                        <img class="pict-profile" src="assets/imam-nobg.png">
-                        <div class="info-cv">
-                            <h2>Hi, Whatsupp!?</h2>
-                            <p>My name is Imam Ash Shidqi</p>
-                            <p>I'm from Cibinong, Bogor</p>
-                            <p>I'm study at Pakuan University!</p>
-                            <p>If you want to know more about me</p>
-                            <p>we can get to know each other</p>
-                            <div class="btn-cv" onclick="redirectToHome()">
-                                <input type="button" value="My Sosial Media">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="navwrapper">
+          <ul class="navigation">
+            <li class="nav">
+              <a href="home.html" class="navlink">Home</a>
+            </li>
+            <li class="nav">
+              <a href="#about" class="navlink">About</a>
+            </li>
+          </ul>
         </div>
+        <div class="profile" id="profile">
+          <div class="container">
+            <div class="contents-profile">
+              <img class="pict-profile" src="assets/imam-nobg.png" />
+              <div class="info-cv">
+                <h2>Hi, Whatsupp!?</h2>
+                <p>My name is Imam Ash Shidqi</p>
+                <p>I'm from Cibinong, Bogor</p>
+                <p>I'm study at Pakuan University!</p>
+                <p>If you want to know more about me</p>
+                <p>we can get to know each other</p>
+                <div class="btn-cv" onclick="redirectToHome()">
+                  <input type="button" value="My Sosial Media" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="about">
-        <div class="red">
-            <div class="contentwrapper">
-                <div class="socmed" >
-                    <a href="https://www.linkedin.com/imamashs" target="_blank">
-                        <img src="assets/linkedin.png" >
-                    </a>
-                    <a href="https://www.instagram.com/imam_ashshidqi" target="_blank">
-                        <img src="assets/ig.png" >
-                    </a>
-                    <a href="https://github.com/imamashshidqi" target="_blank">
-                        <img src="assets/github.png" >
-                    </a>
-                    <a href="https://www.youtube.com/@ASHQI" target="_blank">
-                        <img src="assets/yt.png" >
-                    </a>
-                </div>
-            </div>
+      <div class="red">
+        <div class="contentwrapper">
+          <div class="socmed">
+            <a href="https://www.linkedin.com/imamashs" target="_blank">
+              <img src="assets/linkedin.png" />
+            </a>
+            <a href="https://www.instagram.com/imam_ashshidqi" target="_blank">
+              <img src="assets/ig.png" />
+            </a>
+            <a href="https://github.com/imamashshidqi" target="_blank">
+              <img src="assets/github.png" />
+            </a>
+            <a href="https://www.youtube.com/@ASHQI" target="_blank">
+              <img src="assets/yt.png" />
+            </a>
+          </div>
         </div>
+      </div>
     </section>
     <div class="top" onclick="goToTop()">🔝</div>
     <script>
-        const goToTop = () => {
-            return location.href="#profile"
-        }
-        const redirectToHome = () => {
-            return location.href = "#about"
-        }
+      const goToTop = () => {
+        return (location.href = "#profile");
+      };
+      const redirectToHome = () => {
+        return (location.href = "#about");
+      };
     </script>
-</body>
+  </body>
 </html>

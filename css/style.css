@@ -17,7 +17,7 @@ section {
   background-color: blueviolet;
   background:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(assets/gedung-unpak.jpg);
+    url(../assets/gedung-unpak.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
